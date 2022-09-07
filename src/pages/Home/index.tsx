@@ -283,16 +283,16 @@ const Swap = () => {
       <section className="defi_main">
         <div className="container ">
           <div className="row">
-            <div
+            {/* <div
               //  className="custom_logo_set"
               className="logo_wheswap"
             >
               <img src={logo} />
-            </div>
+            </div> */}
             <div className="col-md-8 offset-md-2">
               <div className="defi_heading">
                 <img src={Cake} />
-                <h1>Connect with wheswap and bridge the gap</h1>
+                <h1>Connect with 3Mswap and bridge the gap</h1>
                 <p>Swap, earn, yield stacks, welcome to the community driven platform, the home to DeFi.</p>
               </div>
               <div className="defi_btn">
@@ -310,7 +310,7 @@ const Swap = () => {
                   <div className="defi_price_box">
                     <h1>Coming Soon</h1>
 
-                    <p>$WheSwap Price</p>
+                    <p>$3MSwap Price</p>
                   </div>
                 </div>
                 <div className="col-md-3">

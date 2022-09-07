@@ -12,6 +12,7 @@ import Providers from './Providers'
 import 'inter-ui'
 import './i18n'
 import "./index.css"
+import "./components/Header/Header"
 if ('ethereum' in window) {
   (window.ethereum as any).autoRefreshOnNetworkChange = false
 }

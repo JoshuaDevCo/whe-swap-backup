@@ -38,14 +38,14 @@ const config: MenuEntry[] = [
     label: 'Game',
     icon: 'TeamBattleIcon',
     href: 'https://www.game.wheswap.io',
-    swiping:true
+    // swiping:true
     // target:'_blank',
   },
   {
     label: 'Game 2',
     icon: 'TeamBattleIcon',
     href: 'https://www.game2.wheswap.io',
-    swiping:true
+    // swiping:true
     // target:"_blank",
   },
   // ,

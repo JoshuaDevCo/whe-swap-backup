@@ -6,7 +6,7 @@ import useI18n from 'hooks/useI18n'
 
 const StyledNav = styled.div`
   margin-bottom: 15px;
-  background: #ffdb1c;
+  background: #332737;
   padding: 10px 20px;
   border-radius: 10px;
 `
@@ -21,7 +21,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
           as={Link}
           className={activeIndex == 0 ? 'btnSwap' : 'btnSwapNonActive'}
         >
-          {TranslateString(1142, 'Swap')}
+          {TranslateString(1142, 'Exchange Crypto')}
         </ButtonMenuItem>
         <ButtonMenuItem
           id="pool-nav-link"

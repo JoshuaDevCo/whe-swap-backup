@@ -2169,13 +2169,13 @@ prise_name .wallet_btn {
 }
 .fQDgZz {
   border-width: 8px;
-  border-style: solid;
+  border-style: none !important;
   border-color: rgb(221, 221, 221) rgb(243, 243, 243);
   border-image: initial;
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  animation: 2s linear 0s infinite normal none running spin;
+  /* animation: 2s linear 0s infinite normal none running spin; */
 }
 @keyframes spin {
   0% {

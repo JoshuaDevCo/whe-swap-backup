@@ -19,6 +19,7 @@ import { Dots } from 'components/swap/styleds'
 import useI18n from 'hooks/useI18n'
 import PageHeader from 'components/PageHeader'
 import AppBody from '../AppBody'
+import { AiFillStar } from 'react-icons/ai'
 
 export default function Pool() {
   const theme = useContext(ThemeContext)
@@ -60,6 +61,8 @@ export default function Pool() {
   }, [])
   return (
     <>
+     <div className="row m-0 p-0">
+        <div className="col-md-5 p-0 heading">
       <CardNav activeIndex={1} />
       <AppBody>
         <PageHeader
@@ -124,6 +127,23 @@ export default function Pool() {
           </CardBody>
         </AutoColumn>
       </AppBody>
+      </div>
+      <div className="col-md-6  py_0 heading mt-5">
+          {/* <h1 class="heading_more"> */}
+          <h1 className=" display-3">More than a crypto exchange</h1>
+          <p className="more">We pick the best — you make a choice</p>
+          <p>
+            TrustScore 4.3 on
+            <AiFillStar className="fa fa-star stars"></AiFillStar>Trustpilot
+            <span className="span_fa">
+              <AiFillStar></AiFillStar>
+              <AiFillStar></AiFillStar>
+              <AiFillStar></AiFillStar>
+              <AiFillStar></AiFillStar>
+            </span>
+          </p>
+        </div>
+      </div>
     </>
   )
 }
